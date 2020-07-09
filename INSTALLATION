@@ -92,10 +92,12 @@ Restart=on-failure
  
 [Install]
 WantedBy=multi-user.target
-Start, Reload Daemon $ Enable nexus service
+
+
+****Start, Reload Daemon $ Enable nexus service
 systemctl daemon-reload
 systemctl start nexus.service
-systemctl enable nexus.service
+systemctl enable nexus.service******(opt out)
  
 Login as a nexus user 
 su - nexus
