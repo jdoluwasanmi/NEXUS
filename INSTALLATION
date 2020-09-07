@@ -11,8 +11,8 @@ root soft memlock unlimited
 root hard memlock unlimited
 root - nofile 131072
 root - nproc 8192
-sonar - nofile 131072
-sonar - nproc 8192
+nexus - nofile 131072
+nexus - nproc 8192
  
  
 Update file with below entry "/etc/sysctl.conf"
